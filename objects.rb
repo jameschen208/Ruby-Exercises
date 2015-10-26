@@ -10,7 +10,7 @@ class Calculator
     @value2 = value2
   end
   def self.values
-    new(12,4)
+    new(1,9)
   end
 
   def add
@@ -56,12 +56,12 @@ class Elevator
 
   def up 
     @floor += @num 
-    puts("Welcome to floor #{@floor}!")
+    puts("#{@floor}")
   end
 
   def down
     @floor -= @num unless @floor == 0
-    puts("Welcome to floor #{@floor}!")
+    puts("#{@floor}")
   end
 
 end
